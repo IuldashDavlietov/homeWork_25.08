@@ -1,0 +1,20 @@
+#root {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 15px;
+}
+
+.divElement {
+    display: grid;
+    width: 100%;
+    border: 2px solid black;
+    justify-content: center;
+
+}
+
+.active {
+    color: orange
+}
+
